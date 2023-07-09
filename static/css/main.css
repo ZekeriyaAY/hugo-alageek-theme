@@ -10,6 +10,8 @@
   --color-patreon: #dc3545;
   --color-ko-fi: #dc3545;
   --color-bmc: #dc3545;
+  --color-linkedin: #0072b1;
+  --color-youtube: #CD201F;
 }
 
 .badge-info {
@@ -30,6 +32,8 @@
     --color-patreon: #f96854;
     --color-ko-fi: #df5000;
     --color-bmc: #ff813f;
+    --color-linkedin: #0072b1;
+    --color-youtube: #CD201F;
   }
 }
 
@@ -67,6 +71,14 @@ h6 {
   color: var(--color-bmc) !important;
 }
 
+.text-linkedin {
+  color: var(--color-linkedin) !important;
+}
+
+.text-youtube {
+  color: var(--color-youtube) !important;
+}
+
 .pagination .page-item .page-link {
   background-color: var(--main-bg-color);
   border-color: var(--pagination-border-color);
@@ -98,11 +110,11 @@ h6 {
   padding-left: 1.5rem;
 }
 
-#TableOfContents ul:first-child > li {
+#TableOfContents ul:first-child>li {
   padding-left: 0;
 }
 
-#TableOfContents ul:first-child > li:first-child {
+#TableOfContents ul:first-child>li:first-child {
   margin-top: 0;
 }
 
@@ -140,7 +152,7 @@ h6 {
 }
 
 .header ul.nav li.nav-item::before {
-  content: "·";
+  content: "•";
 }
 
 .header ul.nav li.nav-item:first-child::before {
@@ -191,29 +203,30 @@ h6 {
   margin: auto;
 }
 
-.content .markdown > h1,
-.content .markdown > h2,
-.content .markdown > h3,
-.content .markdown > h4,
-.content .markdown > h5,
-.content .markdown > h6 {
+.content .markdown>h1,
+.content .markdown>h2,
+.content .markdown>h3,
+.content .markdown>h4,
+.content .markdown>h5,
+.content .markdown>h6 {
   margin-top: 3rem;
   margin-bottom: 0.75rem;
 }
 
 .content .meta,
-.content .markdown > h1,
-.content .markdown > h2,
-.content .markdown > h3,
-.content .markdown > h4,
-.content .markdown > h5,
-.content .markdown > h6,
-.content .markdown > p,
-.content .markdown > ul,
-.content .markdown > ol,
-.content .markdown > dl,
-.content .markdown > blockquote {
-  margin-left: 1.5rem; /* equal to mx-md-4 in bootstrap */
+.content .markdown>h1,
+.content .markdown>h2,
+.content .markdown>h3,
+.content .markdown>h4,
+.content .markdown>h5,
+.content .markdown>h6,
+.content .markdown>p,
+.content .markdown>ul,
+.content .markdown>ol,
+.content .markdown>dl,
+.content .markdown>blockquote {
+  margin-left: 1.5rem;
+  /* equal to mx-md-4 in bootstrap */
   margin-right: 1.5rem;
 }
 
@@ -337,17 +350,17 @@ h6 {
   }
 
   .content .meta,
-  .content .markdown > h1,
-  .content .markdown > h2,
-  .content .markdown > h3,
-  .content .markdown > h4,
-  .content .markdown > h5,
-  .content .markdown > h6,
-  .content .markdown > p,
-  .content .markdown > ul,
-  .content .markdown > ol,
-  .content .markdown > dl,
-  .content .markdown > blockquote {
+  .content .markdown>h1,
+  .content .markdown>h2,
+  .content .markdown>h3,
+  .content .markdown>h4,
+  .content .markdown>h5,
+  .content .markdown>h6,
+  .content .markdown>p,
+  .content .markdown>ul,
+  .content .markdown>ol,
+  .content .markdown>dl,
+  .content .markdown>blockquote {
     margin-left: 0;
     margin-right: 0;
   }
