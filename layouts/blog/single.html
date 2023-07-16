@@ -43,8 +43,8 @@
 
           {{- if .GitInfo }}
           <br>
-          <span class="date" style="font-size: small; color: grey;" title="{{ .GitInfo.CommitDate.Format " Mon Jan 2 2006 15:04:05 MST" }}">
-            Update: &nbsp; 
+          <span class="date" style="color: grey;" title="{{ .GitInfo.CommitDate.Format " Mon Jan 2 2006 15:04:05 MST" }}">
+            Update: 
             <a href="https://github.com/ZekeriyaAY/zekeriyaay.com/commit/{{ .GitInfo.Hash }}">
               {{ .GitInfo.CommitDate.Format "January 02, 2006" }}
             </a>
