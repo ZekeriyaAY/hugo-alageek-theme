@@ -169,6 +169,7 @@ h6 {
 
 .header ul.nav li.nav-item::before {
   content: "•";
+  padding-right: 8px;
 }
 
 .header ul.nav li.nav-item:first-child::before {
@@ -199,7 +200,7 @@ h6 {
 }
 
 .content .middot:before {
-  font-size: 6px;
+  /* font-size: 6px; */
   margin: 0 6px;
   vertical-align: middle;
   content: "•";
